@@ -12,5 +12,15 @@
         <link rel="stylesheet" href="assets/styles/style.css">
     </head>
     <body>
-    
-</html>
+    <header>
+        <nav>
+            <img src="assets/image/logo-desktop-tiah.png" alt="logo-du-site">
+
+            <ul>
+                <li> <a href="pages/landing-page.php">À propos</a> </li>
+                <li> <a href="pages/about.php">Ce que je fais</a> </li>
+                <li> <a href="pages/work.php">Ce que j'ai réalisé</a> </li>
+                <li> <a href="pages/contact.php">Me contacter</a> </li>
+            </ul>
+        </nav>
+    </header>
