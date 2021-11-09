@@ -1,6 +1,6 @@
 <?php include "../includes/header.php" ?>
 
-<main>    
+    <section>
         <h2>
          Ce que j'ai réalisé,
         </h2>
@@ -28,10 +28,7 @@
                 <span> <a href="work.php"></a> En savoir plus sur mes projets ...</span>
             </div>
         </div>
-    </main>
+    </section>
+    
 
 <?php include "../includes/footer.php"; ?>
-
-</body>
-
-</html>

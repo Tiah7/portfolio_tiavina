@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "open";
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "play";
+    src: url(../font/Playlist\ Script.otf);
+}
+
 /* reset css  */
 :root {
     --white: #ffffff;
@@ -10,7 +19,126 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    color: inherit;
+    box-sizing: border-box;
 }
 
-/* --------------   */
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 100%;
+    min-height: 100wh;
+    background-color: var(--grullo) ;
+    color: var(--white);
+    font-family: "open";
+    row-gap: 2.5rem;
+    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header img {
+    max-width: 14rem;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+header div{
+    padding: 2.5rem;
+    display: none;
+}
+
+
+/* LANDING-PAGE */
+
+section {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-items: center;
+    
+
+    
+    padding: 2.5rem;
+    column-gap: 5rem;
+    row-gap: 5rem;
+
+   
+  
+}
+
+.background {
+    background-image: url("banner-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+   height: auto;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.first__container__1{
+    background-color: red;
+}
+.first__container__1__text {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.first__container__1__text__name {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+    font-family: "play";
+}
+
+.first__container__1__button {
+    padding: 1rem;
+    background-color: var(--grullo) ;
+    width: 12rem;
+    display: grid;
+    place-items: center;
+    border-radius: 4px;
+}
+
+section img {
+width: 14rem;
+height: 14rem;
+
+}
+
+.second__container span {
+    font-family: "play";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
 

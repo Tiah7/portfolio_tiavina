@@ -1,30 +1,42 @@
-<? include "header.php" ?>
-    <main>
-        <div id="first__container">
-            <h1>
-            Tiavina, web designer
-            </h1>
+<?php require "../includes/header.php"; ?>
 
-            <p>
-            Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            </p>
+<main>
+    <h1>
+        Tiavina, web designer
+    </h1>
 
-            <span>
-            Tiavina Ralandison.
-            </span>
+    <div class="background">
+    
+            <section>
+                
+                <div class="first__container__1">
+                        <div class="first__container__1__text">
+                            <p>
+                            Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
 
-            <button>
-            Télécharger mon cv
-            </button>
-        </div>
+                            <p class="first__container__1__text__name">
+                            Tiavina Ralandison
+                            </p>
+                        </div>
+                        
+                        <a href="#"><p class="first__container__1__button">Télécharger mon cv</p></a>
+                </div>
 
-        <div id="second__container">
-            <img src="assets/image/mon-travail.png" alt="image-de-représentation">
+                <img src="../assets/image/dev/6-projet-cnr-formation.png" alt="">
 
-            <span><a href="about.php"> En savoir plus sur moi </a></span>
-        </div>
+            </section>
 
-    </main>
-<? include "footer.php" ?>
-</body>
-</html>
+    </div>
+
+    <div class="second__container">
+        
+
+        <span><a href="about.php"> En savoir plus sur moi... </a></span>
+    </div>
+    
+</main>
+
+
+<?php require "../includes/footer.php"; ?>
+
