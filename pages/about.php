@@ -1,34 +1,33 @@
-<?php include "../includes/header.php" ?>
 
-    <section>
-        <h2>
-         Ce que j'ai réalisé,
-        </h2>
 
-        <div id="third__container">
-            <div class="third__container__1">
-                <h3>
-                 design-developpement
-                </h3>
+<?php require "../includes/header.php"; ?>
 
-                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
+<main>
+    <h1>Ce que je fais,</h1>
 
-            <div class="third__container__1">
-                <h3>
-                 e-commerce-wordpress
-                </h3>
+    <div class="test">
+            <section>
+                <div class="section__skills">
+                    <h3>
+                        Design & Developpement
+                    </h3>
 
-                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                    <p class="section__skills__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
 
-                <span> <a href="work.php"></a> En savoir plus sur mes projets ...</span>
-            </div>
-        </div>
-    </section>
-    
+                <div class="section__skills">
+                    <h3>
+                        E-commerce & Wordpress
+                    </h3>
 
-<?php include "../includes/footer.php"; ?>
+                    <p class="section__skills__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </section>
+    </div>
+</main>
+
+<?php require "../includes/footer.php"; ?>
